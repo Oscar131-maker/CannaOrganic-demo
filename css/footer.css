@@ -1,0 +1,77 @@
+/****** Go Top *******/
+.go-top{
+    position: fixed;
+    bottom: 10%;
+    right:-100%;
+    width: 50px;
+    height: 50px;
+    background-color: var(--green);
+    z-index: 999;
+    cursor: pointer;
+    text-align: center;
+    transition: 300ms;
+}
+.go-top:hover{background-color: var(--greenhover);}
+.go-top i{
+    font-size: 25px;
+    color: var(--white);
+    line-height: 50px;
+}
+
+/******* Footer ******/
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: var(--black);
+    color: var(--white);
+    padding:10px;
+}
+.footer-content{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-content .custom-logo{
+    height: 70px;
+    object-fit: cover;
+    margin-left: 50px;
+}
+.footer-content h1{font-size: 20px; padding: 20px 0px;}
+.footer-content h1 a{
+    color: var(--white);
+    text-decoration: none;
+    transition: 250ms;
+    font-size: 25px;
+    font-weight: 400;
+}
+.footer-content h1 a:hover{color: var(--blackHover);}
+.footer-content p{
+   font-size: 19px;
+   font-weight: 300;
+   margin:0px 30px;
+   color: var(--white) !important;
+}
+.footer-content .social-footer a i{
+   font-size: 25px;
+   color: var(--white);
+   margin: 0px 10px;
+   transition: 250ms;
+}
+.footer-content .social-footer a i:hover{
+   color: var(--blackHover);
+}
+
+/**************** Footer Widgets **********************/
+.footer-widget-content{
+    width: 100%;
+    background-color: #eaeaea;
+    padding:30px;
+    margin-top: 60px;
+}
+.footer-widget-content > .row > div {padding:20px;}
+
+@media only screen and (max-width:461px){
+    .footer{margin-bottom: 50px;}
+}

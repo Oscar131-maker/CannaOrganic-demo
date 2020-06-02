@@ -1,0 +1,125 @@
+.index-default{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.post-principal-content{width:100%;}
+.post-principal-content .latest-posts{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.post-principal-content .latest-posts h3{
+    text-align: center;
+}
+.post-principal-content .latest-posts hr{
+    width: 30%;
+    margin: auto;
+}
+.card{
+    margin-bottom: 50px;
+    border:none;
+}
+.card .card-img{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.card .card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+.card .card-img:hover img{
+    transform:scale(1.5);
+}
+.card .card-img .date-card{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 56px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.card .card-img .date-card span{line-height:25px;}
+.card .card-img .date-card span:first-child{
+    text-align: center;
+    font-size: 20px;
+}
+.card .card-img .date-card span:last-child{
+    text-align: center;
+    font-size: 22px;
+}
+.card .card-img .card-category{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card .card-img .card-category a{
+    background-color: var(--green);
+    color: var(--white);
+    padding:5px;
+    font-size: 12px;
+    text-decoration: none;
+    transition: 500ms;
+}
+.card .card-img .card-category a:hover{
+    background-color: var(--greenhover);
+}
+.card .card-body{padding:0px;}
+.card .card-body h3{
+    text-align: center;
+    line-height:24px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+.card .card-body h3 a{
+   text-decoration: none;
+   font-size: 20px;
+   color: var(--black);
+   transition: 500ms;
+}
+.card .card-body h3 a:hover{color:var(--greenhover);}
+.card .card-body .card-author{
+    font-size: 15px;
+    color: #616163 !important;
+}
+.card .card-body p{
+    font-size: 16px !important;
+    text-align: center;
+    line-height: 30px !important;
+    margin-top: 10px !important;
+    color: #616163 !important;
+}
+
+/*** Pagination ***/
+.pagination-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.page-link{
+    color:var(--black);
+    transition: 300ms;
+    font-weight: 500;
+}
+.page-link:hover{
+   background-color: var(--green) !important;
+   color: #eaeaea;
+}
+.page-item.active .page-link{
+    background-color:var(--green) !important;
+    border-color:#dee2e6 !important;
+}
+
+
+
+
+
+
+

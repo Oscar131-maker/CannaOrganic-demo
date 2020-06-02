@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+:root{
+    --green:#0F9B55;
+    --greenhover:rgb(85, 196, 111);
+    --black:#0f0f11;
+    --white:#fff;
+}
+body{
+    background: #fff;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+main{
+    width: 100%;
+}
+
+h1{font-size: 40px; color: var(--black);}
+h2{font-size: 35px; color: var(--black);}
+h3{font-size: 30px; color: var(--black);}
+h4{font-size: 25px; color: var(--black);}
+h5{font-size: 20px; color: var(--black);}
+h6{font-size: 20px; color: var(--black);}
+
+a{
+    color:var(--green);
+}
+a:hover{
+    color:var(--greenhover);
+}
+.btn{
+    background:var(--green);
+    border: none;
+    transition: 300ms;
+    color: var(--white);
+}
+.btn:hover{
+    background:var(--greenhover);
+    color: var(--white);
+}
+.btn:focus{
+    background:var(--greenhover);
+    color: var(--white);
+}
+p{
+    font-weight: 300 !important;
+    font-size:17px !important;
+    line-height: 35px !important;
+    font-family: 'Ubunto', sans-serif !important;
+    color: var(--black) !important;
+}
+
